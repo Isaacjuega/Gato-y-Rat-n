@@ -63,7 +63,7 @@ function draw() {
 function keyPressed(){
 
     //CAMBIA EL BOTÓN PARA QUE FUNCIONE AL PRESIONAR LA FLECHA IZQUIERDA
-    if(keyCode === "LeftKey"){
+    if(keyCode === "LEFT_ARROW"){
         tom.velocityX = -5; 
         tom.addAnimation("tomRunning", tomImg2);
         tom.changeAnimation("tomRunning");
